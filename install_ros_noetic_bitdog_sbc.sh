@@ -95,6 +95,8 @@ sudo apt install openssh-server -y
 pip3 install pyserial
 pip3 install opencv-python-headless
 pip3 install cvbridge3
+
+sudo adduser $USER dialout
 cd $HOME/$name_catkin_workspace
 
 source $HOME/.bashrc
